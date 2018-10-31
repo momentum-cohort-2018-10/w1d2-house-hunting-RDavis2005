@@ -13,7 +13,6 @@ percent_to_save = float(input("Enter the percent of your home's cost to save as 
 current_savings = 0
 month = 0
 r = annual_rate_of_return / 12
-monthly_return = monthly * r
 
 down_payment = int(total_cost * percent_to_save)
 
