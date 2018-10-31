@@ -4,11 +4,11 @@ monthly = annual_salary / 12
 
 portion_saved = float(input("Enter the percent of your salary to save,as a decimal:"))
 
-annual_rate_of_return = float(input("Enter the expected annual rate of return:"))
+annual_rate_of_return = float(input("Enter the expected annual rate of return:") or "0.04")
 
 total_cost = int(input("Enter the cost of your dream home:"))
 
-percent_to_save = float(input("Enter the percent of your home's cost to save as a down payment:"))
+percent_to_save = float(input("Enter the percent of your home's cost to save as a down payment:") or "0.25")
 
 current_savings = 0
 month = 0
